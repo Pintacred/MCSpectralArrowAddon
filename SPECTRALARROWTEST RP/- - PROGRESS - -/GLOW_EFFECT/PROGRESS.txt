@@ -1,0 +1,62 @@
+
+
+	GLOWING EFFECT MOBS DONE (+ 2 REVAMPS):
+		GHAST
+		BLAZE
+		CREEPER
+		GUARDIAN
+		ELDER GUARDIAN - RENDERING RESOLVED (guardian_bug1) (ISSUE: TAIL OUTLINE RENDERING TOO FAR, SOLUTION: ADD MORE CUBES ON TAIL END)
+		BAT
+		SKELETON - ISSUE_003
+		COW - GEOMETRY RESOLVED
+		CHICKEN
+		BEE
+		ALLAY
+		AXOLOTL
+		PIG
+		SHEEP - RENDERING RESOLVED (sheep_bug1, sheep_bug2)
+		ZOMBIE - ISSUE_003
+		BOGGED - INVERTED CUBE RENDERING FINALLY RESOLVED (invertedCube_bug-render)
+		CAMEL
+		WOLF
+		- - - - MOBS WITH NON-INVERTED CUBES - - - -
+		CAT
+		OCELOT
+		DROWNED - ISSUE_003
+		HUSK - ISSUE_003
+		STRAY - ISSUE_003
+		WITHER SKELETON - ISSUE_003
+		ENDERMAN - scale from TRANSFORM tab is finally discovered, no more torturing myself with the knife tool!
+		SHULKER
+		SQUID
+		GLOW SQUID
+		FOX - bind pose rotation value is ignored by the format updating. The fix is to look at the bind pose at original geometry and make it negative value, then put it to rotation value. Also copy group pivot to object pivot
+		TURTLE
+		DOLPHIN
+		LLAMA - ISSUE_002
+		ZOMBIE PIGMAN - ISSUE_003
+		PIGLIN - ISSUE_003
+		PIGLIN BRUTE - ISSUE_003
+		HOGLIN
+		ZOGLIN
+		STRIDER
+		RAVAGER
+		CAVE SPIDER
+		SPIDER
+		ARMADILLO - FIXED EAR GEOMETRY (square)
+		
+	GLOWING EFFECT MOBS IN PROGRESS:
+
+
+		
+	GLOWING EFFECT MOBS WAITING:
+		
+		
+		
+	MOBS PROGRESS HALTED:
+		BREEZE - HALTED (to be done in the future due to complicated/detailed texture and translucency)
+		PHANTOM - UNRESOLVED (GLOW EFFECT NOT RENDERING)
+		IRON GOLEM - UNRESOLVED (GLOW EFFECT NOT RENDERING)
+		WITCH - PAUSED (REQUIRES VILLAGER MODEL)
+		VILLAGER - HALTED (TOO OVERWHELMING)
+		

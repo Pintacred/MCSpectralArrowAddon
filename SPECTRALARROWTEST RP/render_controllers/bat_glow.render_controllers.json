@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.bat_glow": {
+      "geometry": "Geometry.bat_glow",
+      "materials": [ { "*": "Material.bat_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.bat_glow2": {
+      "geometry": "Geometry.bat_glow",
+      "materials": [ { "*": "Material.bat_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

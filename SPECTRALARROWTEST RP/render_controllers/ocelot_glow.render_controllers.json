@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.ocelot_glow": {
+      "geometry": "Geometry.ocelot_glow",
+      "materials": [ { "*": "Material.ocelot_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.ocelot_glow2": {
+      "geometry": "Geometry.ocelot_glow",
+      "materials": [ { "*": "Material.ocelot_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+COPTAINE
+https://mcpedl.com/user/coptaine/
+ - 'Advanced Bow + Crossbow Addon' used as a base for custom spectral arrow
+
+NYANKUN
+https://mcpedl.com/user/nyankun/
+ - 'Glowing Effect Addon with Many Colors Ver 4.0' .material file used to make entities render in front of blocks
+
+zazacKE
+https://www.reddit.com/user/zazacK1173/
+ - for helping me with the spectral arrow (he told about using variance)
+
+polrflar3
+https://mcpedl.com/user/polrflare/
+ - resource pack used for reference on projectile particle

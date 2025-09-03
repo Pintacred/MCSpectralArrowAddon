@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.bogged_glow": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.bogged_glow",
+      "part_visibility": [
+        { "mushrooms": "!query.is_sheared" }
+      ],
+      "materials": [ { "*": "Material.bogged_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.bogged_glow2": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.bogged_glow",
+      "part_visibility": [
+        { "mushrooms": "!query.is_sheared" }
+      ],
+      "materials": [ { "*": "Material.bogged_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

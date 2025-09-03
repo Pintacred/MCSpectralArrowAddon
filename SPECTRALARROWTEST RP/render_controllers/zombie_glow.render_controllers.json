@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.zombie_glow": {
+      "geometry": "Geometry.zombie_glow",
+      "materials": [ { "*": "Material.zombie_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.zombie_glow2": {
+      "geometry": "Geometry.zombie_glow",
+      "materials": [ { "*": "Material.zombie_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

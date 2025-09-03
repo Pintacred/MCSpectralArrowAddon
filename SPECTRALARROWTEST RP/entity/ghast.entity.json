@@ -1,0 +1,47 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:ghast",
+      "materials": {
+        "default": "ghast",
+        // glowing effect
+        "ghast_glow": "entity_emissive",
+        "ghast_glow2": "entity_glow_status"
+      },
+      "textures": {
+        "default": "textures/entity/ghast/ghast",
+        "shooting": "textures/entity/ghast/ghast_shooting",
+        // glow effect
+        "glowing_texture": "textures/entity/mob_glowing_effect/glow_highlight"
+      },
+      "geometry": {
+        "default": "geometry.ghast",
+        // glow effect
+        "ghast_glow": "geometry.ghast_glow"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 19
+      },
+      "animations": {
+        "move": "animation.ghast.move",
+        "scale": "animation.ghast.scale"
+      },
+      "animation_controllers": [
+        {
+          "move": "controller.animation.ghast.move"
+        },
+        {
+          "scale": "controller.animation.ghast.scale"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.ghast",
+        // glow effect
+        "controller.render.ghast_glow",
+        "controller.render.ghast_glow2"
+      ]
+    }
+  }
+}

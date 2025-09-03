@@ -1,0 +1,54 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:chicken",
+      "min_engine_version": "1.12.0",
+      "materials": {
+        "default": "entity_alphatest",
+        "legs": "chicken_legs",
+
+        "chicken_glow": "entity_emissive",
+        "chicken_glow2": "entity_glow_status"
+      },
+      "textures": {
+        "default": "textures/entity/chicken",
+
+        "glowing_texture": "textures/entity/mob_glowing_effect/glow_highlight"
+      },
+      "geometry": {
+        "default": "geometry.chicken.v1.12",
+
+        "chicken_glow": "geometry.chicken_glow.v1.12"
+      },
+      "animations": {
+        "move": "animation.chicken.move",
+        "general": "animation.chicken.general",
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.chicken.baby_transform"
+      },
+      "scripts": {
+        "animate": [
+          "general",
+          {
+            "move": "query.modified_move_speed"
+          },
+          "look_at_target",
+          {
+            "baby_transform": "query.is_baby"
+          }
+        ]
+      },
+      "render_controllers": [
+        "controller.render.chicken",
+
+        "controller.render.chicken_glow",
+        "controller.render.chicken_glow2"
+      ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 0
+      }
+    }
+  }
+}

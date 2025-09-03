@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.husk_glow": {
+      "geometry": "Geometry.husk_glow",
+      "materials": [ { "*": "Material.husk_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.husk_glow2": {
+      "geometry": "Geometry.husk_glow",
+      "materials": [ { "*": "Material.husk_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

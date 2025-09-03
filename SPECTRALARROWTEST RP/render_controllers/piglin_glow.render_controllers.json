@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.piglin_glow": {
+      "geometry": "Geometry.piglin_glow",
+      "materials": [ { "*": "Material.piglin_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.piglin_glow2": {
+      "geometry": "Geometry.piglin_glow",
+      "materials": [ { "*": "Material.piglin_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

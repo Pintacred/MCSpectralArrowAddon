@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.creeper_glow": {
+      "geometry": "Geometry.creeper_glow",
+      "materials": [ { "*": "Material.creeper_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.creeper_glow2": {
+      "geometry": "Geometry.creeper_glow",
+      "materials": [ { "*": "Material.creeper_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

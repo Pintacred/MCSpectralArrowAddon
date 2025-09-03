@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.phantom_glow": {
+      "geometry": "Geometry.phantom_glow",
+      "materials": [ { "*": "Material.phantom_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.phantom_glow2": {
+      "geometry": "Geometry.phantom_glow",
+      "materials": [ { "*": "Material.phantom_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

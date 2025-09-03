@@ -1,0 +1,57 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:fox",
+      "materials": {
+        "default": "entity_alphatest",
+
+        "fox_glow": "entity_emissive",
+        "fox_glow2": "entity_glow_status"
+      },
+      "textures": {
+        "red": "textures/entity/fox/fox",
+        "arctic": "textures/entity/fox/arctic_fox",
+
+        "glowing_texture": "textures/entity/mob_glowing_effect/glow_highlight"
+      },
+      "geometry": {
+        "default": "geometry.fox",
+
+        "fox_glow": "geometry.fox_glow"
+      },
+      "animations": {
+        "walk": "animation.quadruped.walk",
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.fox.baby_transform",
+        "crouch": "animation.fox.crouch",
+        "sleep": "animation.fox.sleep",
+        "setup": "animation.fox.setup",
+        "sit": "animation.fox.sit",
+        "wiggle": "animation.fox.wiggle",
+        "stuck": "animation.fox.stuck",
+        "pounce": "animation.fox.pounce",
+        "move": "controller.animation.fox.move"
+      },
+      "scripts": {
+        "animate": [
+          "setup",
+          {
+            "baby_transform": "query.is_baby"
+          },
+          "move"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.fox",
+
+        "controller.render.fox_glow",
+        "controller.render.fox_glow2"
+      ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 55
+      }
+    }
+  }
+}

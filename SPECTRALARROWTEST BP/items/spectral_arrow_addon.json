@@ -1,0 +1,34 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "pintacred:spectral_arrow",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.arrow"
+			},
+			"minecraft:display_name": {
+				"value": "item.pintacred:spectral_arrow.name"
+			},
+			"minecraft:icon": {
+				"texture": "pintacred:spectral_arrow"
+			},
+			"minecraft:projectile": {
+				"projectile_entity": "pintacred:spectral_arrow"
+			},
+			"minecraft:allow_off_hand": true,
+			"minecraft:entity_placer": {
+				"entity": "pintacred:spectral_arrow",
+				"use_on": [
+					"minecraft:barrier"
+				],
+				"dispense_on": [
+					"minecraft:air"
+				]
+			}
+		},
+		"events": {}
+	}
+}

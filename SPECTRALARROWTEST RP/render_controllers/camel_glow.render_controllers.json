@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.camel_glow": {
+      "geometry": "Geometry.camel_glow",
+      "materials": [ { "*": "Material.camel_glow" } ],
+      "textures": [ "Texture.glowing_texture" ],
+      "part_visibility": [
+        { "saddle": "query.is_saddled" },
+        { "bridle": "query.is_saddled" },
+        { "reins*" : "query.is_saddled && query.has_rider" }
+      ]
+    },
+    "controller.render.camel_glow2": {
+      "geometry": "Geometry.camel_glow",
+      "materials": [ { "*": "Material.camel_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ],
+      "part_visibility": [
+        { "saddle": "query.is_saddled" },
+        { "bridle": "query.is_saddled" },
+        { "reins*" : "query.is_saddled && query.has_rider" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.armadillo_glow": {
+      "geometry": {"Geometry.armadillo_glow": "query.is_sheared"},
+      "materials": [ { "*": "Material.armadillo_glow" } ],
+      "textures": [ "Texture.glowing_texture" ],
+      "part_visibility": [
+        { "body": "!variable.use_rolled_up_model" },
+        { "tail": "!variable.use_rolled_up_model" },
+        { "left_hind_leg": "!variable.use_rolled_up_model" },
+        { "right_hind_leg": "!variable.use_rolled_up_model" },
+        { "body_rolled_up": "variable.use_rolled_up_model" }
+      ]
+    },
+    "controller.render.armadillo_glow2": {
+      "geometry": {"Geometry.armadillo_glow": "query.is_sheared"},
+      "materials": [ { "*": "Material.armadillo_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ],
+      "part_visibility": [
+        { "body": "!variable.use_rolled_up_model" },
+        { "tail": "!variable.use_rolled_up_model" },
+        { "left_hind_leg": "!variable.use_rolled_up_model" },
+        { "right_hind_leg": "!variable.use_rolled_up_model" },
+        { "body_rolled_up": "variable.use_rolled_up_model" }
+      ]
+    }
+  }
+}

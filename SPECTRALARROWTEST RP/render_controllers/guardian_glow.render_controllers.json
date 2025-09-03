@@ -1,0 +1,15 @@
+{
+  "format_version": "1.12.0",
+  "render_controllers": {
+    "controller.render.guardian_glow": {
+      "geometry": "Geometry.guardian_glow",
+      "materials": [ { "*": "query.is_ghost ? Material.guardian_ghost : Material.guardian_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.guardian_glow2": {
+      "geometry": "Geometry.guardian_glow",
+      "materials": [ { "*": "query.is_ghost ? Material.guardian_ghost : Material.guardian_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

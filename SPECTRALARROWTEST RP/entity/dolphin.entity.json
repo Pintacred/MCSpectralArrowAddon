@@ -1,0 +1,46 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:dolphin",
+      "materials": {
+        "default": "entity_alphatest",
+
+        "dolphin_glow": "entity_emissive",
+        "dolphin_glow2": "entity_glow_status"
+
+      },
+      "textures": {
+        "default": "textures/entity/dolphin",
+
+        "glowing_texture": "textures/entity/mob_glowing_effect/glow_highlight"
+
+      },
+      "geometry": {
+        "default": "geometry.dolphin",
+
+        "dolphin_glow": "geometry.dolphin_glow"
+
+      },
+      "animations": {
+        "move": "animation.dolphin.move"
+      },
+      "animation_controllers": [
+        {
+          "general": "controller.animation.dolphin.general"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.dolphin",
+
+        "controller.render.dolphin_glow",
+        "controller.render.dolphin_glow2"
+
+      ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 49
+      }
+    }
+  }
+}

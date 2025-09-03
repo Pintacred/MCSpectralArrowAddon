@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.blaze_glow": {
+      "geometry": "Geometry.blaze_glow",
+      "materials": [ { "*": "Material.blaze_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.blaze_glow2": {
+      "geometry": "Geometry.blaze_glow",
+      "materials": [ { "*": "Material.blaze_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

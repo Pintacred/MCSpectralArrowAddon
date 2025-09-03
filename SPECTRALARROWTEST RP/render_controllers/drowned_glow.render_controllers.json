@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.drowned_glow": {
+      "geometry": "Geometry.drowned_glow",
+      "materials": [ { "*": "Material.drowned_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.drowned_glow2": {
+      "geometry": "Geometry.drowned_glow",
+      "materials": [ { "*": "Material.drowned_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

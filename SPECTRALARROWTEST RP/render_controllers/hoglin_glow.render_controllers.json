@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.hoglin_glow": {
+      "geometry": "Geometry.hoglin_glow",
+      "materials": [ { "*": "Material.hoglin_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.hoglin_glow2": {
+      "geometry": "Geometry.hoglin_glow",
+      "materials": [ { "*": "Material.hoglin_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.chicken_glow": {
+      "geometry": "geometry.chicken_glow",
+      "materials": [ { "*": "Material.chicken_glow" } ],
+      "textures": [ "texture.glowing_texture" ]
+    },
+    "controller.render.chicken_glow2": {
+      "geometry": "geometry.chicken_glow",
+      "materials": [ { "*": "Material.chicken_glow2" } ],
+      "textures": [ "texture.glowing_texture" ]
+    }
+  }
+}

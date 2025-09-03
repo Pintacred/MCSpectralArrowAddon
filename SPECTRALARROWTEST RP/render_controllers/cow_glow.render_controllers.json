@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.cow_glow": {
+      "geometry": "Geometry.cow_glow",
+      "materials": [ { "*": "Material.cow_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.cow_glow2": {
+      "geometry": "Geometry.cow_glow",
+      "materials": [ { "*": "Material.cow_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

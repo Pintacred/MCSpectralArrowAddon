@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.iron_golem_glow": {
+      "geometry": "Geometry.iron_golem_glow",
+      "materials": [ { "*": "Material.iron_golem_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.iron_golem_glow2": {
+      "geometry": "Geometry.iron_golem_glow",
+      "materials": [ { "*": "Material.iron_golem_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

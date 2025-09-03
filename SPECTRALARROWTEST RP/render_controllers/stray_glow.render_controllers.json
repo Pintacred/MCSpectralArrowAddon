@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.stray_glow": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.stray_glow",
+      "materials": [ { "*": "Material.stray_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.stray_glow2": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.stray_glow",
+      "materials": [ { "*": "Material.stray_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+
+  }
+}

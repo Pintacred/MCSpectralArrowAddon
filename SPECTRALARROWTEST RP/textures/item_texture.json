@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "SPECTRAL ARROW Resource Pack",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "pintacred:spectral_arrow": {
+      "textures": "textures/items/spectral_arrow_addon"
+    }
+  }
+}

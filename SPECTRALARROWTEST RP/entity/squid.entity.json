@@ -1,0 +1,44 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:squid",
+      "materials": {
+        "default": "entity_alphatest",
+
+        "squid_glow": "entity_emissive",
+        "squid_glow2": "entity_glow_status"
+      },
+      "textures": {
+        "default": "textures/entity/squid",
+
+        "glowing_texture": "textures/entity/mob_glowing_effect/glow_highlight"
+      },
+      "geometry": {
+        "default": "geometry.squid",
+
+        "squid_glow": "geometry.squid_glow"
+      },
+      "animations": {
+        "move": "animation.squid.move",
+        "squid_rotate": "animation.squid.rotate"
+      },
+      "scripts": {
+        "animate": [
+          "move",
+          "squid_rotate"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.squid",
+
+        "controller.render.squid_glow",
+        "controller.render.squid_glow2"
+      ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 15
+      }
+    }
+  }
+}

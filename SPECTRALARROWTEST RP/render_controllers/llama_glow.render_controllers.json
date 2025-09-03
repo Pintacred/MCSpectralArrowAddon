@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.llama_glow": {
+      "geometry": "Geometry.llama_glow",
+      "part_visibility": [ { "chest*": "query.is_chested" } ],
+      "materials": [ { "*": "Material.llama_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.llama_glow2": {
+      "geometry": "Geometry.llama_glow",
+      "part_visibility": [ { "chest*": "query.is_chested" } ],
+      "materials": [ { "*": "Material.llama_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

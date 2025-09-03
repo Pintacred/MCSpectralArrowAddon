@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.zoglin_glow": {
+      "geometry": "Geometry.zoglin_glow",
+      "materials": [ { "*": "Material.zoglin_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.zoglin_glow2": {
+      "geometry": "Geometry.zoglin_glow",
+      "materials": [ { "*": "Material.zoglin_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

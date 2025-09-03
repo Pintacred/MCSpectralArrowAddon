@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.squid_glow": {
+      "geometry": "Geometry.squid_glow",
+      "materials": [ { "*": "Material.squid_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.squid_glow2": {
+      "geometry": "Geometry.squid_glow",
+      "materials": [ { "*": "Material.squid_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

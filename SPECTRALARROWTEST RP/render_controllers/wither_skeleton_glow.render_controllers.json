@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.wither_skeleton_glow": {
+      "geometry": "Geometry.wither_skeleton_glow",
+      "materials": [ { "*": "Material.wither_skeleton_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.wither_skeleton_glow2": {
+      "geometry": "Geometry.wither_skeleton_glow",
+      "materials": [ { "*": "Material.wither_skeleton_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

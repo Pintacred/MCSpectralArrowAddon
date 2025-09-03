@@ -1,0 +1,30 @@
+entity_glow_status = mob phase-through geometry (glow status replication)
+
+NOTE:
+guardian and elder guardian have separate .entity files,
+but they share the same geometry and render controller
+
+NOTE: inflating the glow models to 0.4 makes them more accurate to java
+
+NOTE: glowing status effect has a second black outline after the white outline
+
+
+NOTE: "ignore_lighting" makes the model glow but still with side darkening applied
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+||	{
+||		"format_version": "1.8.0",
+||		"render_controllers": {
+||			"controller.render.allay_glow": {
+||				"geometry": "Geometry.allay_glow",
+||				"materials": [ { "*": "Material.allay_glow" } ],
+||				"textures": [ "Texture.glowing_texture" ],
+||				"ignore_lighting": true
+||			}
+||		}
+||	}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+NOTE: with the new format of geometry and some discoveries like uv faces now properly rendering, 
+glow effect cubes will now render like inverted cubes, lessening the work needed
+to finish the texture pack

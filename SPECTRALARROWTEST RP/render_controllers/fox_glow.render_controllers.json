@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.fox_glow": {
+      "geometry": "Geometry.fox_glow",
+      "part_visibility": [
+        { "leg*": "!query.is_sleeping" },
+        { "head": "!query.is_sleeping" },
+        { "head_sleeping": "query.is_sleeping" }
+      ],
+      "materials": [ { "*": "Material.fox_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.fox_glow2": {
+      "geometry": "Geometry.fox_glow",
+      "part_visibility": [
+        { "leg*": "!query.is_sleeping" },
+        { "head": "!query.is_sleeping" },
+        { "head_sleeping": "query.is_sleeping" }
+      ],
+      "materials": [ { "*": "Material.fox_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

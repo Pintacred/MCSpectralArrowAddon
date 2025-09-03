@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.ravager_glow": {
+      "geometry": "Geometry.ravager_glow",
+      "materials": [ { "*": "Material.ravager_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.ravager_glow2": {
+      "geometry": "Geometry.ravager_glow",
+      "materials": [ { "*": "Material.ravager_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

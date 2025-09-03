@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.bogged_clothes_glow": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.bogged_armor_glow",
+      "materials": [ { "*": "Material.bogged_armor_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.bogged_clothes_glow2": {
+      "rebuild_animation_matrices": true,
+      "geometry": "Geometry.bogged_armor_glow",
+      "materials": [ { "*": "Material.bogged_armor_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

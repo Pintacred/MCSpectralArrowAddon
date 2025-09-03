@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.pig_glow": {
+      "geometry": "Geometry.pig_glow",
+      "materials": [ { "*": "Material.pig_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.pig_glow2": {
+      "geometry": "Geometry.pig_glow",
+      "materials": [ { "*": "Material.pig_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

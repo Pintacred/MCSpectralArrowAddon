@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.arrow_trail": {
+			"states": {
+				"default": {
+					"particle_effects": [
+						{
+							"effect": "particle"
+						}
+					],
+					"transitions": [
+						{
+							"trail": "query.is_alive || query.variant == 0" // query.variant here doesn't do anything, same for query.variant below it.
+						}
+					]
+				},
+				"trail": {
+					"particle_effects": [
+						{
+							"effect": "particle"
+						}
+					],
+					"transitions": [
+						{
+							"default": "query.is_alive && query.variant == 1" // I don't know why this works, but I'm not gonna question it. You know what they all say: "If it works, it works."
+						}
+					]
+				}
+			}
+		}
+	}
+}

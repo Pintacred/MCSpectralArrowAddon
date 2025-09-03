@@ -1,0 +1,46 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:bat",
+      "materials": {
+        "default": "bat_v2",
+
+        "bat_glow": "entity_emissive",
+        "bat_glow2": "entity_glow_status"
+      },
+      "textures": {
+        "default": "textures/entity/bat_v2",
+
+        "glowing_texture": "textures/entity/mob_glowing_effect/glow_highlight"
+      },
+      "geometry": {
+        "default": "geometry.bat_v2",
+
+        "bat_glow": "geometry.bat_v2_glow"
+      },
+      "scripts": {
+        "scale": "1.0"
+      },
+      "animations": {
+        "resting": "animation.bat.resting",
+        "flying": "animation.bat.flying"
+      },
+      "animation_controllers": [
+        {
+          "move": "controller.animation.bat.move"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.bat",
+
+        "controller.render.bat_glow",
+        "controller.render.bat_glow2"
+      ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 18
+      }
+    }
+  }
+}

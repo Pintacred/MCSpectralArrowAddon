@@ -1,0 +1,20 @@
+
+
+	ISSUE_002 "RIDABLES_LAYER-INCORRECT-ORDER": 
+	 - RIDABLE MOBS INCORRECTLY RENDERING IN INVENTORY UI (OUTLINE OR WHITE COVER IS RENDERING ON TOP)
+	
+	ISSUE_003 "MOB-ARMOR_LAYER-INCORRECT-ORDER":
+	 - ARMOR COVERS THE OUTLINE OF MOBS
+	    * REPLICATION:
+	         Make a mob equip armor. A full armored mob's outline will be hardly visible.
+	
+	ISSUE "OUTLINE_COLOR-OVERLAY"
+		= MOB OUTLINE IS AFFECTED BY DAMAGE COLOR OVERLAY (red color)
+		= MOB OUTLINE IS AFFECTED BY FIRE TINT (orange color)
+		= TRANSLUCENT BLOCK XRAY:
+			 - MOB OUTLINE IS AFFECTED BY TRANSLUCENT BLOCKS
+			    * REPLICATION:
+			         Put mob in or behind any transluscent block
+			 - TRANSLUSCENT BLOCKS ARE VISIBLE THROUGH MOB (IF THERE IS A SOLID BLOCK IN FRONT OF THE PLAYER)
+			    * REPLICATION:
+			         Put mob in or behind any transluscent block and cover your very front with solid blocks

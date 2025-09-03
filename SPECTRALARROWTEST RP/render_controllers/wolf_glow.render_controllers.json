@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.wolf_glow": {
+      "geometry": "Geometry.wolf_glow",
+      "materials": [ { "*": "Material.wolf_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.wolf_glow2": {
+      "geometry": "Geometry.wolf_glow",
+      "materials": [ { "*": "Material.wolf_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}

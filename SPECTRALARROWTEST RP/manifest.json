@@ -1,0 +1,28 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "SPECTRAL ARROW ADDON",
+        "name": "SPECTRAL ARROW Resource Pack",
+        "uuid": "823bece1-bf8d-47b7-ad6b-14e1304aa1a1",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 21, 0 ]
+    },
+    "modules": [
+        {
+            "description": "SPECTRAL ARROW ADDON",
+            "type": "resources",
+            "uuid": "a6abd398-d3d0-4350-a5ad-784640e741d3",
+            "version": [0, 0, 1]
+        }
+    ],
+    "dependencies": [
+		{
+			"version": [
+				0,
+				0,
+				1
+			],
+			"uuid": "2e0d11be-b0a0-4913-a5c5-d29b3a15c032"
+		}
+	]
+}

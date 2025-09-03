@@ -1,0 +1,75 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cat_glow": {
+      "arrays": {
+        "geometries": {
+          "Array.skins": [
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow_flatface",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow"
+          ],
+          "Array.tame": [
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow_flatface",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow"
+          ]
+        }
+      },
+      "geometry": "query.is_tamed ? Array.tame[query.variant] : Array.skins[query.variant]",
+      "materials": [ { "*": "Material.cat_glow" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    },
+    "controller.render.cat_glow2": {
+      "arrays": {
+        "geometries": {
+          "Array.skins": [
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow_flatface",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow"
+          ],
+          "Array.tame": [
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow_flatface",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow",
+            "Geometry.cat_glow"
+          ]
+        }
+      },
+      "geometry": "query.is_tamed ? Array.tame[query.variant] : Array.skins[query.variant]",
+      "materials": [ { "*": "Material.cat_glow2" } ],
+      "textures": [ "Texture.glowing_texture" ]
+    }
+  }
+}
